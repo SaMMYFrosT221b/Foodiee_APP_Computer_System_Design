@@ -24,11 +24,12 @@ dependencies:
 
   #  Icons packages
   cupertino_icons: ^1.0.2
-  iconsax: ^0.0.8
 
   #  State Management
   get: ^4.6.6
   get_storage: ^2.1.1
+  smooth_page_indicator: ^1.1.0
+  iconsax_flutter: ^1.0.0
 
 #  Product Specific Packages
 
@@ -46,6 +47,7 @@ flutter:
     - assets/logos/
     - assets/images/
     - assets/icons/brands/
+    - assets/images/on_boarding_images/
 
   fonts:
     - family: Poppins

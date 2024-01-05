@@ -9,4 +9,12 @@ class TImages {
 // -- Social Logos _ _
   static const String google = "assets/Logos/google-icon.png";
   static const String facebook = "assets/logos/facebook-icon.png";
+
+//   On Boarding Images
+  static const String onBoardingImage1 =
+      "assets/images/on_boarding_images/burger.gif";
+  static const String onBoardingImage2 =
+      "assets/images/on_boarding_images/cooking.gif";
+  static const String onBoardingImage3 =
+      "assets/images/on_boarding_images/restaurant.gif";
 }
