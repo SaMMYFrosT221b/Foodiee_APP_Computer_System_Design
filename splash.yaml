@@ -1,0 +1,17 @@
+flutter_native_splash:
+  color: "#FFFFFF"
+  color_dark: "#272727"
+  image: assets/logos/t-store-splash-logo-black.jpg
+  image_dark: assets/logos/t-store-splash-logo-white.jpg
+
+  android_12:
+    color: "#FFFFFF"
+    color_dark: "#272727"
+    image: assets/logos/t-store-splash-logo-black.jpg
+    image_dark: assets/logos/t-store-splash-logo-white.jpg
+
+  web: false
+
+#  To run the splash screen work
+# To Add: flutter pub run flutter_native_splash:create --path=splash.yaml
+# To Remove: flutter pub run flutter_native_splash:remove
