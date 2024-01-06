@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:foodiee/utlis/constants/colors.dart';
-import 'package:foodiee/utlis/theme/theme.dart';
 
 import 'app.dart';
 
