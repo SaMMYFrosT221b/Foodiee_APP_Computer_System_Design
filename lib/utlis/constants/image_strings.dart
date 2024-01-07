@@ -18,4 +18,6 @@ class TImages {
       "assets/images/on_boarding_images/cooking.gif";
   static const String onBoardingImage3 =
       "assets/images/on_boarding_images/restaurant.gif";
+
+  static const emailVerify = "assets/images/animations/email.gif";
 }
