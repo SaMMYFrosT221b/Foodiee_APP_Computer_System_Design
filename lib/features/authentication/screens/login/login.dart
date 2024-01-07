@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:foodiee/common/widgets/form_divider.dart';
-import 'package:foodiee/common/widgets/social_button.dart';
+import 'package:foodiee/common/widgets/login_signup/form_divider.dart';
+import 'package:foodiee/common/widgets/login_signup/social_button.dart';
 import 'package:foodiee/features/authentication/screens/login/widgets/login_form.dart';
 import 'package:foodiee/features/authentication/screens/login/widgets/login_header.dart';
 import 'package:foodiee/utlis/constants/sizes.dart';

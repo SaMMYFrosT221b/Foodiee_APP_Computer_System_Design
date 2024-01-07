@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import '../../utlis/constants/colors.dart';
-import '../../utlis/constants/image_strings.dart';
-import '../../utlis/constants/sizes.dart';
+import '../../../utlis/constants/colors.dart';
+import '../../../utlis/constants/image_strings.dart';
+import '../../../utlis/constants/sizes.dart';
 
 class TSocialButton extends StatelessWidget {
   const TSocialButton({

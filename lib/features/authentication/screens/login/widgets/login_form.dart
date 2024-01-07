@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:foodiee/features/authentication/screens/signup/signup.dart';
+import 'package:foodiee/utlis/constants/sizes.dart';
+import 'package:foodiee/utlis/constants/text_strings.dart';
+import 'package:get/route_manager.dart';
 import 'package:iconsax_flutter/iconsax_flutter.dart';
-
-import '../../../../../utlis/constants/sizes.dart';
-import '../../../../../utlis/constants/text_strings.dart';
 
 class TLoginForm extends StatelessWidget {
   const TLoginForm({
@@ -87,7 +88,7 @@ class TLoginForm extends StatelessWidget {
             SizedBox(
               width: double.infinity,
               child: OutlinedButton(
-                onPressed: () {},
+                onPressed: () => Get.to(() => const SignupScreen()),
                 child: const Text(TTexts.createAccount),
               ),
             ),
