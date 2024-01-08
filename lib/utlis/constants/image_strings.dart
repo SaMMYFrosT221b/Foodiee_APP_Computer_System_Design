@@ -12,6 +12,8 @@ class TImages {
   static const String microsoft = "assets/logos/microsoft-icon.png";
 
 //   On Boarding Images
+  static const String deliveryEmailImage =
+      "assets/images/animations/delivery_email_image.png";
   static const String onBoardingImage1 =
       "assets/images/on_boarding_images/burger.gif";
   static const String onBoardingImage2 =

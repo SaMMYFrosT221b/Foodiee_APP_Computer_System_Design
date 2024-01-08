@@ -42,6 +42,9 @@ class TTexts {
   static const String tContinue = "continue";
 
   /// Authentication heading Text ---------
+  static const String submit = "Submit";
+  static const String done = 'Done';
+  static const String resend = "Resend";
   static const String loginTitle = "Welcome back,";
   static const String loginSubTitle =
       "Discover limitless choice and unmatched convenience";
