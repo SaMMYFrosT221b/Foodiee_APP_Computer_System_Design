@@ -1,6 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:foodiee/common/widgets/appbar/appbar.dart';
 import 'package:foodiee/common/widgets/custom_shapes/containers/circular_container.dart';
+import 'package:foodiee/common/widgets/custom_shapes/containers/primary_header_container.dart';
+import 'package:foodiee/common/widgets/custom_shapes/curved_edge/curved_edges.dart';
+import 'package:foodiee/common/widgets/custom_shapes/curved_edge/curved_edges_widget.dart';
+import 'package:foodiee/common/widgets/product/cart/cart_menu_icon.dart';
 import 'package:foodiee/utlis/constants/colors.dart';
+import 'package:foodiee/utlis/constants/text_strings.dart';
+import 'package:get/get.dart';
+import 'package:iconsax_flutter/iconsax_flutter.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -11,39 +19,38 @@ class HomeScreen extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            ClipPath(
-              clipper: ,
-              child: Container(
-                color: TColors.primaryColor,
-                padding: EdgeInsets.all(0),
-                child: SizedBox(
-                  height: 400,
-                  child: Stack(
-                    children: [
-                      Positioned(
-                        top: -150,
-                        right: -250,
-                        child: TCircularContainer(
-                          backgroundColor: TColors.textWhite.withOpacity(0.1),
+            TPrimaryHeaderContainer(
+              child: Column(
+                children: [
+                  TAppBar(
+                    showBackArrow: false,
+                    title: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          TTexts.homeAppbarTitle,
+                          style: Theme.of(context)
+                              .textTheme
+                              .labelMedium!
+                              .apply(color: TColors.grey),
                         ),
-                      ),
-                      Positioned(
-                        top: 100,
-                        right: -300,
-                        child: TCircularContainer(
-                          backgroundColor: TColors.textWhite.withOpacity(0.1),
+                        Text(
+                          TTexts.homeAppbarSubTitle,
+                          style: Theme.of(context)
+                              .textTheme
+                              .headlineSmall!
+                              .apply(color: TColors.white),
                         ),
-                      ),
-                      Column(
-                        children: [
-                          ///App bar
-                          ///Search bar
-                          ///Categories
-                        ],
+                      ],
+                    ),
+                    actions: [
+                      TCartCounterIcon(
+                        onPressed: () {},
+                        iconColor: TColors.white,
                       )
                     ],
                   ),
-                ),
+                ],
               ),
             )
           ],
